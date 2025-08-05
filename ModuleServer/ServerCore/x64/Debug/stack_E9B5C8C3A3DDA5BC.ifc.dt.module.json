@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\stack.obj",
+            "outputs": [
+                "x64\\Debug\\stack_E9B5C8C3A3DDA5BC.ifc.dt.module.json",
+                "x64\\Debug\\stack_E9B5C8C3A3DDA5BC.ifc.dt.d.json",
+                "x64\\Debug\\stack.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\stack",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stack",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\unordered_map_1DRN86E16RTCD4QS.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\Libraries\\Debug\\ServerCore.pdb",
+                "x64\\Debug\\unordered_map_1DRN86E16RTCD4QS.module.json",
+                "x64\\Debug\\unordered_map_1DRN86E16RTCD4QS.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_map",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_map",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\list.obj",
+            "outputs": [
+                "x64\\Debug\\list_3DD4571B1908DDFC.ifc.dt.module.json",
+                "x64\\Debug\\list_3DD4571B1908DDFC.ifc.dt.d.json",
+                "x64\\Debug\\list.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\list",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\list",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

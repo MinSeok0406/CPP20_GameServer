@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{d06c65bd-66df-4d33-b467-edddfcd0d9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{3eb795d7-8bcb-4a59-ad86-37dcc334ad7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CorePch.ixx">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.ixx">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.ixx">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Types.obj",
+            "outputs": [
+                "x64\\Debug\\Types.ixx.ifc.dt.module.json",
+                "x64\\Debug\\Types.ixx.ifc.dt.d.json",
+                "x64\\Debug\\Types.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Types",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\types.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

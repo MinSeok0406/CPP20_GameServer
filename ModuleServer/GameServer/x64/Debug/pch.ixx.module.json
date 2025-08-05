@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Pch.ixx.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\Pch.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Pch",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\gameserver\\pch.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "CorePch"
+                }
+            ]
+        }
+    ]
+}

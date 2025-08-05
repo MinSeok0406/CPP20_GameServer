@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\iostream.obj",
+            "outputs": [
+                "x64\\Debug\\iostream_79918C6CD49961A8.ifc.dt.module.json",
+                "x64\\Debug\\iostream_79918C6CD49961A8.ifc.dt.d.json",
+                "x64\\Debug\\iostream.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\iostream",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\pch.obj",
+            "outputs": [
+                "x64\\Debug\\pch.ixx.ifc.dt.module.json",
+                "x64\\Debug\\pch.ixx.ifc.dt.d.json",
+                "x64\\Debug\\pch.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "pch",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\pch.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "CorePch"
+                }
+            ]
+        }
+    ]
+}
