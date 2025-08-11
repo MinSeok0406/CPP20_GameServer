@@ -175,6 +175,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConcurrentQueue.cpp" />
+    <ClCompile Include="ConcurrentQueue.ixx" />
+    <ClCompile Include="ConcurrentStack.cpp" />
+    <ClCompile Include="ConcurrentStack.ixx" />
     <ClCompile Include="GameServer.cpp" />
     <ClCompile Include="Pch.ixx" />
   </ItemGroup>

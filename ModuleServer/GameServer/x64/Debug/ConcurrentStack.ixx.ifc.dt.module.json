@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\ConcurrentStack.obj",
+            "outputs": [
+                "x64\\Debug\\ConcurrentStack.ixx.ifc.dt.module.json",
+                "x64\\Debug\\ConcurrentStack.ixx.ifc.dt.d.json",
+                "x64\\Debug\\ConcurrentStack.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "ConcurrentStack",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\gameserver\\concurrentstack.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "Pch"
+                }
+            ]
+        }
+    ]
+}

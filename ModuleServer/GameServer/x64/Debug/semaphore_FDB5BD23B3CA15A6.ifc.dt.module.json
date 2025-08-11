@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\semaphore.obj",
+            "outputs": [
+                "x64\\Debug\\semaphore_FDB5BD23B3CA15A6.ifc.dt.module.json",
+                "x64\\Debug\\semaphore_FDB5BD23B3CA15A6.ifc.dt.d.json",
+                "x64\\Debug\\semaphore.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\semaphore",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\future.obj",
+            "outputs": [
+                "x64\\Debug\\future_644E7055343FA21B.ifc.dt.module.json",
+                "x64\\Debug\\future_644E7055343FA21B.ifc.dt.d.json",
+                "x64\\Debug\\future.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\future",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\future",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

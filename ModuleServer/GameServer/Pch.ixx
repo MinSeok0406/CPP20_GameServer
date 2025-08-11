@@ -1,6 +1,11 @@
-module;
-#define WIN32_LEAN_AND_MEAN             // 거의 사용되지 않는 내용을 Windows 헤더에서 제외합니다.
-
 export module Pch;
+
+export import <thread>;
+export import <mutex>;
+export import <atomic>;
+export import <chrono>;
+export import <future>;
+export import <syncstream>;
+export import <semaphore>;
 
 export import CorePch;
