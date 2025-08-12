@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\semaphore_2E3AIMSVKMWNVBZ1.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\Libraries\\Debug\\ServerCore.pdb",
+                "x64\\Debug\\semaphore_2E3AIMSVKMWNVBZ1.module.json",
+                "x64\\Debug\\semaphore_2E3AIMSVKMWNVBZ1.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

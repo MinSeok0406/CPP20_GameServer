@@ -175,6 +175,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConcurrentBlockingQueue.ixx" />
     <ClCompile Include="ConcurrentQueue.cpp" />
     <ClCompile Include="ConcurrentQueue.ixx" />
     <ClCompile Include="ConcurrentStack.cpp" />

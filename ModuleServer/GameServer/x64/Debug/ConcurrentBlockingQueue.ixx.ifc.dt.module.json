@@ -1,0 +1,50 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\ConcurrentBlockingQueue.obj",
+            "outputs": [
+                "x64\\Debug\\ConcurrentBlockingQueue.ixx.ifc.dt.module.json",
+                "x64\\Debug\\ConcurrentBlockingQueue.ixx.ifc.dt.d.json",
+                "x64\\Debug\\ConcurrentBlockingQueue.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "ConcurrentBlockingQueue",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\gameserver\\concurrentblockingqueue.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "ConcurrentQueue"
+                },
+                {
+                    "logical-name": "atomic",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\atomic",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "memory",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\memory",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "stop_token",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stop_token",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "utility",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\utility",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

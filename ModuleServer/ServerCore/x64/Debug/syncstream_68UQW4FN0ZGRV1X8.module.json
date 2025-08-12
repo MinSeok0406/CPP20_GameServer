@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\syncstream_68UQW4FN0ZGRV1X8.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\Libraries\\Debug\\ServerCore.pdb",
+                "x64\\Debug\\syncstream_68UQW4FN0ZGRV1X8.module.json",
+                "x64\\Debug\\syncstream_68UQW4FN0ZGRV1X8.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\syncstream",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\syncstream",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

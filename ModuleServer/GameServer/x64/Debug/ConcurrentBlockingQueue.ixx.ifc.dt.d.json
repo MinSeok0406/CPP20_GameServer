@@ -1,0 +1,40 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\gameserver\\concurrentblockingqueue.ixx",
+        "ProvidedModule": "ConcurrentBlockingQueue",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "ConcurrentQueue",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\ConcurrentQueue.ixx.ifc.dt"
+            },
+            {
+                "Name": "Types",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\Types.ixx.ifc.dt"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\atomic",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\atomic_3C63034224E1A0C5.ifc.dt"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\memory",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\memory_D8CA4873FCDBC8D7.ifc.dt"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stop_token",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\stop_token_5E90571B8B9AC72E.ifc.dt"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\utility",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\utility_57D044F8074BDF24.ifc.dt"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\thread",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\thread_1246F527AC2FB6EC.ifc.dt"
+            }
+        ]
+    }
+}

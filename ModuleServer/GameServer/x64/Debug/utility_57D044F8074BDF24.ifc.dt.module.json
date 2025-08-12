@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\utility.obj",
+            "outputs": [
+                "x64\\Debug\\utility_57D044F8074BDF24.ifc.dt.module.json",
+                "x64\\Debug\\utility_57D044F8074BDF24.ifc.dt.d.json",
+                "x64\\Debug\\utility.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\utility",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

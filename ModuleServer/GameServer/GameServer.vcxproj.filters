@@ -27,5 +27,8 @@
     <ClCompile Include="ConcurrentStack.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="ConcurrentBlockingQueue.ixx">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

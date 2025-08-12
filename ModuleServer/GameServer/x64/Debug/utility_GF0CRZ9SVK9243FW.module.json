@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\utility_GF0CRZ9SVK9243FW.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\GameServer\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\utility_GF0CRZ9SVK9243FW.module.json",
+                "x64\\Debug\\utility_GF0CRZ9SVK9243FW.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\utility",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\utility",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
