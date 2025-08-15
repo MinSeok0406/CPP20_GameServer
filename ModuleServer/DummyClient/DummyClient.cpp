@@ -1,6 +1,7 @@
 ﻿import Pch;
+#include "../ServerCore/CoreMacro.h"
 
 int main()
 {
-    HelloServer();
+    CRASH("Test");
 }

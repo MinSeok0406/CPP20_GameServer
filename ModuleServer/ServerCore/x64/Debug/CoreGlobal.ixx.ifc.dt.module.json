@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\CoreGlobal.obj",
+            "outputs": [
+                "x64\\Debug\\CoreGlobal.ixx.ifc.dt.module.json",
+                "x64\\Debug\\CoreGlobal.ixx.ifc.dt.d.json",
+                "x64\\Debug\\CoreGlobal.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "CoreGlobal",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\coreglobal.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "CorePch.stdx"
+                },
+                {
+                    "logical-name": "Types"
+                },
+                {
+                    "logical-name": "ThreadManager"
+                }
+            ]
+        }
+    ]
+}

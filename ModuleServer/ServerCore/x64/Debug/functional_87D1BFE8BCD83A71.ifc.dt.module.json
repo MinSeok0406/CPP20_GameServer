@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\functional.obj",
+            "outputs": [
+                "x64\\Debug\\functional_87D1BFE8BCD83A71.ifc.dt.module.json",
+                "x64\\Debug\\functional_87D1BFE8BCD83A71.ifc.dt.d.json",
+                "x64\\Debug\\functional.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.44.35207\\include\\functional",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\functional",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

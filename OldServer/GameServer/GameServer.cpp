@@ -1,7 +1,25 @@
 ﻿#include "pch.h"
 #include <iostream>
+#include "CoreMacro.h"
+#include "ThreadManager.h"
+
+CoreGlobal Core;
+
+void ThreadMain()
+{
+	while (true)
+	{
+		cout << "Hello! I am thread... " << LThreadId << endl;
+		this_thread::sleep_for(1s);
+	}
+}
 
 int main()
 {
-    HelloServer();
+	for (int32 i = 0; i < 5; i++)
+	{
+		GThreadManager->Launch(ThreadMain);
+	}
+
+	GThreadManager->Join();
 }

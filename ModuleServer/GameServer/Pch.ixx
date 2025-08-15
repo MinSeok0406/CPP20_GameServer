@@ -1,3 +1,3 @@
 export module Pch;
 
-export import CorePch;
+export import pch;

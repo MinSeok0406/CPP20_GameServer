@@ -18,103 +18,16 @@
             ],
             "requires": [
                 {
+                    "logical-name": "CorePch.stdx"
+                },
+                {
                     "logical-name": "Types"
                 },
                 {
-                    "logical-name": "vector",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\vector",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
+                    "logical-name": "CoreGlobal"
                 },
                 {
-                    "logical-name": "list",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\list",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "queue",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\queue",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "stack",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stack",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "map",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\map",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "set",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\set",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "unordered_map",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_map",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "unordered_set",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_set",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "thread",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\thread",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "mutex",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\mutex",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "atomic",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\atomic",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "chrono",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "future",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\future",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "syncstream",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\syncstream",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "semaphore",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "iostream",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
+                    "logical-name": "CoreTLS"
                 }
             ]
         }

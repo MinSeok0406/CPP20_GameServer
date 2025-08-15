@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\CoreTLS.obj",
+            "outputs": [
+                "x64\\Debug\\CoreTLS.ixx.ifc.dt.module.json",
+                "x64\\Debug\\CoreTLS.ixx.ifc.dt.d.json",
+                "x64\\Debug\\CoreTLS.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "CoreTLS",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\coretls.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "CorePch.stdx"
+                },
+                {
+                    "logical-name": "Types"
+                }
+            ]
+        }
+    ]
+}

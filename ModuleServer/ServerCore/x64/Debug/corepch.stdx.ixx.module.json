@@ -1,0 +1,89 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\CorePch.stdx.ixx.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\Libraries\\Debug\\ServerCore.pdb",
+                "x64\\Debug\\",
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CorePch.stdx.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "CorePch.stdx",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\corepch.stdx.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "vector",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\vector",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "list",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\list",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "queue",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\queue",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "stack",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stack",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "map",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\map",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "set",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\set",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "unordered_map",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_map",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "unordered_set",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_set",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "thread",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\thread",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "functional",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\functional",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "iostream",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

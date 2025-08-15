@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\functional_CJ8NFJJBNM671NSK.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\Libraries\\Debug\\ServerCore.pdb",
+                "x64\\Debug\\functional_CJ8NFJJBNM671NSK.module.json",
+                "x64\\Debug\\functional_CJ8NFJJBNM671NSK.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\functional",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\functional",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

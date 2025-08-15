@@ -6,8 +6,24 @@
         "Includes": [],
         "ImportedModules": [
             {
+                "Name": "pch",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\pch.ixx.ifc"
+            },
+            {
                 "Name": "CorePch",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CorePch.ixx.ifc"
+            },
+            {
+                "Name": "CoreGlobal",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreGlobal.ixx.ifc"
+            },
+            {
+                "Name": "CorePch.stdx",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CorePch.stdx.ixx.ifc"
+            },
+            {
+                "Name": "CoreTLS",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreTLS.ixx.ifc"
             },
             {
                 "Name": "Types",
@@ -16,16 +32,8 @@
         ],
         "ImportedHeaderUnits": [
             {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\atomic",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\atomic_PE9TMWTX1R0SJY4L.ifc"
-            },
-            {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\chrono_7ZKGOWFDGQXGA80L.ifc"
-            },
-            {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\future",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\future_KZTPOYBU32I8X2DE.ifc"
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\functional",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\functional_CJ8NFJJBNM671NSK.ifc"
             },
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
@@ -40,16 +48,8 @@
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\map_8570PHEP5QDMO5LF.ifc"
             },
             {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\mutex",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\mutex_3G198ENTRL4EBDBR.ifc"
-            },
-            {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\queue",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\queue_2R2388PJJRH3CLQC.ifc"
-            },
-            {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\semaphore_2E3AIMSVKMWNVBZ1.ifc"
             },
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\set",
@@ -58,10 +58,6 @@
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stack",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\stack_C3SZAF11Z9SFVALP.ifc"
-            },
-            {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\syncstream",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\syncstream_68UQW4FN0ZGRV1X8.ifc"
             },
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\thread",
@@ -78,6 +74,30 @@
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\vector",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\vector_QT0FFQZ3EM8XD0G4.ifc"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\atomic",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\atomic_PE9TMWTX1R0SJY4L.ifc"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\chrono_7ZKGOWFDGQXGA80L.ifc"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\future",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\future_KZTPOYBU32I8X2DE.ifc"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\mutex",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\mutex_3G198ENTRL4EBDBR.ifc"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\semaphore_2E3AIMSVKMWNVBZ1.ifc"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\syncstream",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\syncstream_68UQW4FN0ZGRV1X8.ifc"
             }
         ]
     }

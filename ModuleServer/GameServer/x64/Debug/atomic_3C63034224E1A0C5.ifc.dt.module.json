@@ -7,7 +7,7 @@
             "outputs": [
                 "x64\\Debug\\atomic_3C63034224E1A0C5.ifc.dt.module.json",
                 "x64\\Debug\\atomic_3C63034224E1A0C5.ifc.dt.d.json",
-                "x64\\Debug\\atomic.ifc"
+                "atomic.ifc"
             ],
             "provides": [
                 {

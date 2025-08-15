@@ -15,20 +15,5 @@
     <ClCompile Include="Pch.ixx">
       <Filter>Utils</Filter>
     </ClCompile>
-    <ClCompile Include="ConcurrentQueue.ixx">
-      <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="ConcurrentQueue.cpp">
-      <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="ConcurrentStack.ixx">
-      <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="ConcurrentStack.cpp">
-      <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="ConcurrentBlockingQueue.ixx">
-      <Filter>Main</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
