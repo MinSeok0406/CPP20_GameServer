@@ -21,18 +21,6 @@
                     "logical-name": "CorePch.stdx"
                 },
                 {
-                    "logical-name": "mutex",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\mutex",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "atomic",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\atomic",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
                     "logical-name": "chrono",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
                     "lookup-method": "include-angle",

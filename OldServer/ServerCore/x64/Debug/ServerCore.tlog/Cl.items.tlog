@@ -1,5 +1,6 @@
 C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\CoreGlobal.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\x64\Debug\CoreGlobal.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\CorePch.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\x64\Debug\CorePch.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\CoreTLS.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\x64\Debug\CoreTLS.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\Lock.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\x64\Debug\Lock.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\pch.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\x64\Debug\pch.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\ThreadManager.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\ServerCore\x64\Debug\ThreadManager.obj

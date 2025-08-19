@@ -11,7 +11,14 @@ export
 	class CoreGlobal
 	{
 	public:
-		CoreGlobal();
-		~CoreGlobal();
-	};
+		CoreGlobal()
+		{
+			GThreadManager = new ThreadManager();
+		}
+
+		~CoreGlobal()
+		{
+			delete GThreadManager;
+		}
+	} GCoreGlobal;
 }

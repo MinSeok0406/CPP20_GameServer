@@ -66,18 +66,6 @@
                     "unique-on-source-path": true
                 },
                 {
-                    "logical-name": "thread",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\thread",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "functional",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\functional",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
                     "logical-name": "iostream",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
                     "lookup-method": "include-angle",

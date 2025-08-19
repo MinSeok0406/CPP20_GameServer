@@ -1,8 +1,6 @@
 export module Types;
 
 import CorePch.stdx;
-export import <mutex>;
-export import <atomic>;
 export import <chrono>;
 export import <future>;
 export import <syncstream>;

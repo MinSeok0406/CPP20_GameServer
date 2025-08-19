@@ -2,6 +2,7 @@
   CoreGlobal.cpp
   CorePch.cpp
   CoreTLS.cpp
+  Lock.cpp
   ThreadManager.cpp
   코드를 생성하고 있습니다...
   ServerCore.vcxproj -> C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\Libraries\Debug\ServerCore.lib
