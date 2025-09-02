@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\CorePch.obj",
+            "outputs": [
+                "x64\\Release\\CorePch.ixx.ifc.dt.module.json",
+                "x64\\Release\\CorePch.ixx.ifc.dt.d.json",
+                "x64\\Release\\CorePch.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "CorePch",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\corepch.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "CorePch.stdx"
+                },
+                {
+                    "logical-name": "Types"
+                },
+                {
+                    "logical-name": "CoreGlobal"
+                },
+                {
+                    "logical-name": "CoreTLS"
+                },
+                {
+                    "logical-name": "Lock"
+                },
+                {
+                    "logical-name": "CoreMacro"
+                }
+            ]
+        }
+    ]
+}

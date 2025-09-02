@@ -1,0 +1,23 @@
+﻿  모듈 종속성의 소스를 검사하는 중...
+  CoreMacro.ixx
+  CorePch.stdx.ixx
+  array
+  컴파일하는 중...
+  array
+  CorePch.stdx.ixx
+  Types.ixx
+  Lock.ixx
+  ThreadManager.ixx
+  CoreTLS.ixx
+  CoreMacro.ixx
+  DeadLockProfiler.ixx
+  CoreGlobal.ixx
+  CorePch.ixx
+  pch.ixx
+  CoreGlobal.cpp
+  CorePch.cpp
+  CoreTLS.cpp
+  DeadLockProfiler.cpp
+  Lock.cpp
+  ThreadManager.cpp
+  ServerCore.vcxproj -> C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\Libraries\Release\ServerCore.lib

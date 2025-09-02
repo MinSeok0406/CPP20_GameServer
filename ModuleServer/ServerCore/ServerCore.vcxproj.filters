@@ -54,10 +54,14 @@
     <ClCompile Include="Lock.cpp">
       <Filter>Thread</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CoreMacro.h">
+    <ClCompile Include="DeadLockProfiler.ixx">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadLockProfiler.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreMacro.ixx">
       <Filter>Main</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -157,20 +157,20 @@
   <ItemGroup>
     <ClCompile Include="CoreGlobal.cpp" />
     <ClCompile Include="CoreGlobal.ixx" />
+    <ClCompile Include="CoreMacro.ixx" />
     <ClCompile Include="CorePch.cpp" />
     <ClCompile Include="CorePch.ixx" />
     <ClCompile Include="CorePch.stdx.ixx" />
     <ClCompile Include="CoreTLS.cpp" />
     <ClCompile Include="CoreTLS.ixx" />
+    <ClCompile Include="DeadLockProfiler.cpp" />
+    <ClCompile Include="DeadLockProfiler.ixx" />
     <ClCompile Include="Lock.cpp" />
     <ClCompile Include="Lock.ixx" />
     <ClCompile Include="pch.ixx" />
     <ClCompile Include="ThreadManager.cpp" />
     <ClCompile Include="ThreadManager.ixx" />
     <ClCompile Include="Types.ixx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CoreMacro.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

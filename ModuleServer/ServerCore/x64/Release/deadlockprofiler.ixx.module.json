@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\DeadLockProfiler.ixx.obj",
+            "outputs": [
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\Libraries\\Release\\ServerCore.pdb",
+                "x64\\Release\\",
+                "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Release\\DeadLockProfiler.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "DeadLockProfiler",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\deadlockprofiler.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "CoreMacro"
+                },
+                {
+                    "logical-name": "CorePch.stdx"
+                },
+                {
+                    "logical-name": "Types"
+                }
+            ]
+        }
+    ]
+}

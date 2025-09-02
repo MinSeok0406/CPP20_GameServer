@@ -18,6 +18,12 @@
             ],
             "requires": [
                 {
+                    "logical-name": "array",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\array",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
                     "logical-name": "vector",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\vector",
                     "lookup-method": "include-angle",

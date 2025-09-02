@@ -16,9 +16,17 @@
             {
                 "Name": "ThreadManager",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\ThreadManager.ixx.ifc"
+            },
+            {
+                "Name": "DeadLockProfiler",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\DeadLockProfiler.ixx.ifc"
             }
         ],
         "ImportedHeaderUnits": [
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\array",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\array_VJM39EXV3MOIKZ2T.ifc"
+            },
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\iostream_07KNFFSXNV90M0YM.ifc"
@@ -58,6 +66,10 @@
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\chrono_7ZKGOWFDGQXGA80L.ifc"
+            },
+            {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\format",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\format_214GPSOUEERMY0OT.ifc"
             },
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\future",

@@ -43,6 +43,12 @@
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
                     "lookup-method": "include-angle",
                     "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "format",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\format",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
                 }
             ]
         }

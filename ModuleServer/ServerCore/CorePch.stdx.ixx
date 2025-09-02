@@ -1,5 +1,6 @@
 export module CorePch.stdx;
 
+export import <array>;
 export import <vector>;
 export import <list>;
 export import <queue>;

@@ -31,6 +31,9 @@
                 },
                 {
                     "logical-name": "Lock"
+                },
+                {
+                    "logical-name": "CoreMacro"
                 }
             ]
         }

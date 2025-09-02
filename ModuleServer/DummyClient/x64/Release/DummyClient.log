@@ -1,0 +1,11 @@
+﻿  모듈 종속성의 소스를 검사하는 중...
+  모듈 종속성의 소스를 검사하는 중...
+  Pch.ixx
+  컴파일하는 중...
+  Pch.ixx
+  DummyClient.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  DummyClient.vcxproj -> C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\Binary\Release\DummyClient.exe

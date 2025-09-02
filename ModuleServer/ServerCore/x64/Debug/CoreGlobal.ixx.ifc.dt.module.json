@@ -25,6 +25,9 @@
                 },
                 {
                     "logical-name": "ThreadManager"
+                },
+                {
+                    "logical-name": "DeadLockProfiler"
                 }
             ]
         }

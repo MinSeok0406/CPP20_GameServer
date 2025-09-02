@@ -1,3 +1,6 @@
+d:\visualstudio\vc\tools\msvc\14.44.35207\include\cstddef;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\cstddef_PCRUAXNNK1P4XBZM.obj
+d:\visualstudio\vc\tools\msvc\14.44.35207\include\source_location;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\source_location_BBCFV92LNQ2HXNSA.obj
+d:\visualstudio\vc\tools\msvc\14.44.35207\include\array;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\array_VJM39EXV3MOIKZ2T.obj
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\vector;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\vector_QT0FFQZ3EM8XD0G4.obj
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\list;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\list_IW2UU0072Y2FR0MR.obj
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\queue;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\queue_2R2388PJJRH3CLQC.obj
@@ -11,13 +14,17 @@ d:\visualstudio\vc\tools\msvc\14.44.35207\include\chrono;C:\GameDev\CPP20_Server
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\future;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\future_KZTPOYBU32I8X2DE.obj
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\syncstream;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\syncstream_68UQW4FN0ZGRV1X8.obj
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\semaphore;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\semaphore_2E3AIMSVKMWNVBZ1.obj
+d:\visualstudio\vc\tools\msvc\14.44.35207\include\format;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\format_214GPSOUEERMY0OT.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreGlobal.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreGlobal.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreGlobal.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreGlobal.ixx.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreMacro.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreMacro.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CorePch.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CorePch.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CorePch.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CorePch.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CorePch.stdx.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CorePch.stdx.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreTLS.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreTLS.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreTLS.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreTLS.ixx.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\DeadLockProfiler.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\DeadLockProfiler.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\DeadLockProfiler.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\DeadLockProfiler.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Lock.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Lock.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Lock.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Lock.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\pch.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\pch.ixx.obj

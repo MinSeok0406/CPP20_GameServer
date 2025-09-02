@@ -7,6 +7,10 @@
         "ImportedModules": [],
         "ImportedHeaderUnits": [
             {
+                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\array",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\array_VJM39EXV3MOIKZ2T.ifc"
+            },
+            {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\vector",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\vector_QT0FFQZ3EM8XD0G4.ifc"
             },

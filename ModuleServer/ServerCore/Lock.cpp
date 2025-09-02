@@ -1,12 +1,15 @@
-module;
-#include "CoreMacro.h"
-
 module Lock;
 import CoreTLS;
+import CoreGlobal;
+import CoreMacro;
 
 // 아무도 소유 및 공유하고 있지 않을 때, 경합해서 소유권을 얻는다.
-void Lock::WriteLock()
+void Lock::WriteLock(const char* name)
 {
+#if _DEBUG
+	GDeadLockProfiler->PushLock(this);
+#endif
+
 	// 동일한 쓰레드가 소유하고 있다면 무조건 성공
 	const uint32 flag = _lockFlag.load(memory_order::relaxed);
 	const uint32 lockThreadId = (flag & WRITE_THREAD_MASK) >> 16;
@@ -24,7 +27,7 @@ void Lock::WriteLock()
 		for (uint32 spinCount = 0; spinCount < MAX_SPIN_COUNT; spinCount++)
 		{
 			uint32 expected = EMPTY_FLAG;
-			if (_lockFlag.compare_exchange_strong(OUT expected, desired, memory_order::acquire, memory_order::relaxed))
+			if (_lockFlag.compare_exchange_weak(expected, desired, memory_order::acquire, memory_order::relaxed))
 			{
 				++_writeCount;
 				return;
@@ -40,8 +43,12 @@ void Lock::WriteLock()
 	}
 }
 
-void Lock::WriteUnlock()
+void Lock::WriteUnlock(const char* name)
 {
+#if _DEBUG
+	GDeadLockProfiler->PopLock(this);
+#endif
+
 	// ReadLock 다 풀기 전에는 WriteUnlock 불가능
 	if ((_lockFlag.load(memory_order::relaxed) & READ_COUNT_MASK) != 0)
 		CRASH("INVALID_UNLOCK_ORDER");
@@ -56,8 +63,12 @@ void Lock::WriteUnlock()
 }
 
 // 아무도 소유하고 있지 않을 때 경합해서 공유 카운트를 올린다.
-void Lock::ReadLock()
+void Lock::ReadLock(const char* name)
 {
+#if _DEBUG
+	GDeadLockProfiler->PushLock(this);
+#endif
+
 	// 동일한 쓰레드가 소유하고 있다면 무조건 성공
 	const uint32 flag = _lockFlag.load(memory_order::relaxed);
 	const uint32 lockThreadId = (flag & WRITE_THREAD_MASK) >> 16;
@@ -66,7 +77,7 @@ void Lock::ReadLock()
 		const uint32 prev = _lockFlag.fetch_add(1, memory_order::relaxed) & READ_COUNT_MASK;
 		if (prev == READ_COUNT_MASK)
 			CRASH("READ_COUNT_OVERFLOW");
-
+		
 		return;
 	}
 
@@ -85,7 +96,7 @@ void Lock::ReadLock()
 			if (expected == READ_COUNT_MASK) [[unlikely]]
 				CRASH("READ_COUNT_OVERFLOW");
 
-			if (_lockFlag.compare_exchange_strong(OUT expected, expected + 1, memory_order::acquire, memory_order::relaxed))
+			if (_lockFlag.compare_exchange_weak(expected, expected + 1, memory_order::acquire, memory_order::relaxed))
 			{
 				return;
 			}
@@ -100,8 +111,12 @@ void Lock::ReadLock()
 	}
 }
 
-void Lock::ReadUnlock()
+void Lock::ReadUnlock(const char* name)
 {
+#if _DEBUG
+	GDeadLockProfiler->PopLock(this);
+#endif
+
 	const uint32 prev = _lockFlag.fetch_sub(1, memory_order::release);
 	if ((prev & READ_COUNT_MASK) == 0) [[unlikely]]
 		CRASH("MULTIPLE_UNLOCK");

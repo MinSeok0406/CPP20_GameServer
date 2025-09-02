@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\source_location",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\yvals_core.h",
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\vcruntime.h",
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\sal.h",
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\concurrencysal.h",
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\vadefs.h",
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\xkeycheck.h",
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\cstdint",
+            "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stdint.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

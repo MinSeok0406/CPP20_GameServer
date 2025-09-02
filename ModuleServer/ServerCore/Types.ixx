@@ -5,6 +5,7 @@ export import <chrono>;
 export import <future>;
 export import <syncstream>;
 export import <semaphore>;
+export import <format>;
 
 export
 {
