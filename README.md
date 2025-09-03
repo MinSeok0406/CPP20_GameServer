@@ -10,7 +10,7 @@
 
 ## 📖 기술 블로그 시리즈 링크
 
-- [Velog 시리즈 전체 보기](https://velog.io/@minseok0406/series/C20-IOCP)
+- [기술 블로그 시리즈 전체 보기](https://velog.io/@minseok0406/series/C20-IOCP)
 
 ---
 
