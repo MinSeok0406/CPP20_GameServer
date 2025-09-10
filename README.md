@@ -38,6 +38,20 @@
 
 ---
 
+### 4️⃣ [CoreMacro 개선](https://velog.io/@minseok0406/C20-%EB%AA%A8%EB%93%88%EA%B3%BC-IOCP%EB%A1%9C-%EC%99%84%EC%84%B1%ED%95%98%EB%8A%94-MMORPG-%EC%84%9C%EB%B2%84-4.-CoreMacro-%EA%B0%9C%EC%84%A0)
+- 함수형 매크로를 inline, constexpr 기반의 모듈 인터페이스로 개선
+- `CRASH`, `ASSERT_CRASH` 매크로 → `noreturn` 함수로 대체, 컴파일러 최적화 유리
+- `LockBox`, `READ_LOCK(_IDX)`, `WRITE_LOCK(_IDX)` 템플릿 제공: 노드스판스 `nodiscard`, `source_location` 활용
+
+---
+
+### 5️⃣ [DeadLock 탐지](https://velog.io/@minseok0406/C20-모듈과-IOCP로-완성하는-MMORPG-서버-5.-DeadLock-%ED%83%90%EC%A7%80)
+- DeadLock 탐지를 위한 프로파일러 구현
+- Lock 획득 간의 관계를 그래프 구조로 기록, DFS로 순환 감지
+- 순환 경로 발생 시 로그 출력 (C++20 `format` 사용) 및 `CRASH` 호출
+
+---
+
 ## 🚀 마무리
 
 이 시리즈는 C++20 모듈과 Windows IOCP를 활용해 MMORPG 서버를 설계하면서 겪은 문제와 해결 과정을 공유합니다.
