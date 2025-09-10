@@ -41,7 +41,7 @@
 ### 4️⃣ [CoreMacro 개선](https://velog.io/@minseok0406/C20-%EB%AA%A8%EB%93%88%EA%B3%BC-IOCP%EB%A1%9C-%EC%99%84%EC%84%B1%ED%95%98%EB%8A%94-MMORPG-%EC%84%9C%EB%B2%84-4.-CoreMacro-%EA%B0%9C%EC%84%A0)
 - 함수형 매크로를 inline, constexpr 기반의 모듈 인터페이스로 개선
 - `CRASH`, `ASSERT_CRASH` 매크로 → `noreturn` 함수로 대체, 컴파일러 최적화 유리
-- `LockBox`, `READ_LOCK(_IDX)`, `WRITE_LOCK(_IDX)` 템플릿 제공: 노드스판스 `nodiscard`, `source_location` 활용
+- `LockBox`, `READ_LOCK(_IDX)`, `WRITE_LOCK(_IDX)` 템플릿 제공: `nodiscard`, `source_location` 활용
 
 ---
 
