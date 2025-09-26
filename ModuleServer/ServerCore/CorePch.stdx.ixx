@@ -1,14 +1,13 @@
 export module CorePch.stdx;
 
-export import <array>;
-export import <vector>;
-export import <list>;
-export import <queue>;
+export import <iostream>;
 export import <stack>;
 export import <map>;
 export import <set>;
-export import <unordered_map>;
-export import <unordered_set>;
 
-export import <iostream>;
-export using namespace std;
+import <array>;
+import <vector>;
+import <list>;
+import <queue>;
+import <unordered_map>;
+import <unordered_set>;

@@ -18,6 +18,30 @@
             ],
             "requires": [
                 {
+                    "logical-name": "iostream",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "stack",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stack",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "map",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\map",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "set",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\set",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
                     "logical-name": "array",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\array",
                     "lookup-method": "include-angle",
@@ -42,24 +66,6 @@
                     "unique-on-source-path": true
                 },
                 {
-                    "logical-name": "stack",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\stack",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "map",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\map",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "set",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\set",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
                     "logical-name": "unordered_map",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_map",
                     "lookup-method": "include-angle",
@@ -68,12 +74,6 @@
                 {
                     "logical-name": "unordered_set",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\unordered_set",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
-                    "logical-name": "iostream",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\iostream",
                     "lookup-method": "include-angle",
                     "unique-on-source-path": true
                 }

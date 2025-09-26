@@ -4,6 +4,8 @@ import CoreMacro;
 import CorePch.stdx;
 import Types;
 
+using namespace std;
+
 // 그래프 사이클을 판별(DFS 이용)
 // 만약 사이클이 발생하면 데드락 상황이라 판별 (역방향 간선)
 /*

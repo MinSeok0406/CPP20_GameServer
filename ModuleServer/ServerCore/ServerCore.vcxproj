@@ -168,6 +168,8 @@
     <ClCompile Include="Lock.cpp" />
     <ClCompile Include="Lock.ixx" />
     <ClCompile Include="pch.ixx" />
+    <ClCompile Include="RefCounting.cpp" />
+    <ClCompile Include="RefCounting.ixx" />
     <ClCompile Include="ThreadManager.cpp" />
     <ClCompile Include="ThreadManager.ixx" />
     <ClCompile Include="Types.ixx" />

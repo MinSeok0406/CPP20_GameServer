@@ -3,6 +3,8 @@ export module Lock;
 import CorePch.stdx;
 import Types;
 
+using namespace std;
+
 // Reader-Writer SpinLock
 export
 {

@@ -1,8 +1,8 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\corepch.ixx",
-        "ProvidedModule": "CorePch",
+        "Source": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\refcounting.ixx",
+        "ProvidedModule": "RefCounting",
         "Includes": [],
         "ImportedModules": [
             {
@@ -12,22 +12,6 @@
             {
                 "Name": "Types",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\Types.ixx.ifc.dt"
-            },
-            {
-                "Name": "CoreGlobal",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreGlobal.ixx.ifc.dt"
-            },
-            {
-                "Name": "CoreTLS",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreTLS.ixx.ifc.dt"
-            },
-            {
-                "Name": "Lock",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\Lock.ixx.ifc.dt"
-            },
-            {
-                "Name": "CoreMacro",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreMacro.ixx.ifc.dt"
             }
         ],
         "ImportedHeaderUnits": [

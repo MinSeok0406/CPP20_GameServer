@@ -1,37 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\dummyclient\\pch.ixx",
-        "ProvidedModule": "Pch",
+        "Source": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\refcounting.ixx",
+        "ProvidedModule": "RefCounting",
         "Includes": [],
         "ImportedModules": [
             {
-                "Name": "pch",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\pch.ixx.ifc"
-            },
-            {
-                "Name": "CorePch",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CorePch.ixx.ifc"
-            },
-            {
-                "Name": "CoreGlobal",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreGlobal.ixx.ifc"
-            },
-            {
-                "Name": "CoreMacro",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreMacro.ixx.ifc"
-            },
-            {
                 "Name": "CorePch.stdx",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CorePch.stdx.ixx.ifc"
-            },
-            {
-                "Name": "CoreTLS",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CoreTLS.ixx.ifc"
-            },
-            {
-                "Name": "Lock",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\Lock.ixx.ifc"
             },
             {
                 "Name": "Types",

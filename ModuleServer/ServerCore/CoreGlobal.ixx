@@ -7,22 +7,14 @@ import DeadLockProfiler;
 
 export
 {
-	extern class ThreadManager* GThreadManager = nullptr;
-	extern class DeadLockProfiler* GDeadLockProfiler = nullptr;
-
 	class CoreGlobal
 	{
 	public:
-		CoreGlobal()
-		{
-			GThreadManager = new ThreadManager();
-			GDeadLockProfiler = new DeadLockProfiler();
-		}
+		CoreGlobal();
+		~CoreGlobal();
+	};
 
-		~CoreGlobal()
-		{
-			delete GThreadManager;
-			delete GDeadLockProfiler;
-		}
-	} GCoreGlobal;
+	extern class ThreadManager* GThreadManager;
+	extern class DeadLockProfiler* GDeadLockProfiler;
+	extern class CoreGlobal GCoreGlobal;
 }
