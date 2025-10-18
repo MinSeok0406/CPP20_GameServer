@@ -52,6 +52,14 @@
 
 ---
 
+### 6️⃣ [Allocator 개선](https://velog.io/@minseok0406/C20-%EB%AA%A8%EB%93%88%EA%B3%BC-IOCP%EB%A1%9C-%EC%99%84%EC%84%B1%ED%95%98%EB%8A%94-MMORPG-%EC%84%9C%EB%B2%84-6.-Allocator-%EA%B0%9C%EC%84%A0)
+- 메모리 관리 구조 개선 및 `std::construct_at`, `std::destroy_at` 도입
+- 기존 `placement new` 기반 코드를 현대 C++ 스타일로 대체
+- `xnew`, `xdelete` 헬퍼 함수 제공 (CoreMacro 내 wrapper)
+- 향후 STL 컨테이너(`vector`, `stack`, `queue`)의 커스텀 Allocator 기반 확장을 위한 기반 설계
+
+---
+
 ## 🚀 마무리
 
 이 시리즈는 C++20 모듈과 Windows IOCP를 활용해 MMORPG 서버를 설계하면서 겪은 문제와 해결 과정을 공유합니다.
