@@ -24,6 +24,9 @@
                     "logical-name": "Lock"
                 },
                 {
+                    "logical-name": "Allocator"
+                },
+                {
                     "logical-name": "source_location",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\source_location",
                     "lookup-method": "include-angle",

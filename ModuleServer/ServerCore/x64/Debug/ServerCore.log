@@ -1,6 +1,18 @@
 ﻿  모듈 종속성의 소스를 검사하는 중...
-  RefCounting.ixx
+  Allocator.ixx
   컴파일하는 중...
-  RefCounting.ixx
-  RefCounting.cpp
+  Allocator.ixx
+  CoreMacro.ixx
+  Memory.ixx
+  DeadLockProfiler.ixx
+  CoreGlobal.ixx
+  CorePch.ixx
+  pch.ixx
+  Allocator.cpp
+  CoreGlobal.cpp
+  CorePch.cpp
+  DeadLockProfiler.cpp
+  Lock.cpp
+  Memory.cpp
+  코드를 생성하고 있습니다...
   ServerCore.vcxproj -> C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\Libraries\Debug\ServerCore.lib

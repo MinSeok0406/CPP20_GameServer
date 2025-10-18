@@ -1,2 +1,5 @@
 ﻿  GameServer.cpp
+C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\GameServer\GameServer.cpp(24,5): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+  (소스 파일 '/GameServer.cpp'을(를) 컴파일하는 중)
+  
   GameServer.vcxproj -> C:\GameDev\CPP20_Server\CPP20_GameServer\OldServer\Binary\Debug\GameServer.exe

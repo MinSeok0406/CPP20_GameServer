@@ -7,7 +7,7 @@ import CoreMacro;
 void Lock::WriteLock(const char* name)
 {
 #if _DEBUG
-	GDeadLockProfiler->PushLock(this);
+	GDeadLockProfiler->PushLock(name);
 #endif
 
 	// 동일한 쓰레드가 소유하고 있다면 무조건 성공
@@ -46,7 +46,7 @@ void Lock::WriteLock(const char* name)
 void Lock::WriteUnlock(const char* name)
 {
 #if _DEBUG
-	GDeadLockProfiler->PopLock(this);
+	GDeadLockProfiler->PopLock(name);
 #endif
 
 	// ReadLock 다 풀기 전에는 WriteUnlock 불가능
@@ -66,7 +66,7 @@ void Lock::WriteUnlock(const char* name)
 void Lock::ReadLock(const char* name)
 {
 #if _DEBUG
-	GDeadLockProfiler->PushLock(this);
+	GDeadLockProfiler->PushLock(name);
 #endif
 
 	// 동일한 쓰레드가 소유하고 있다면 무조건 성공
@@ -114,7 +114,7 @@ void Lock::ReadLock(const char* name)
 void Lock::ReadUnlock(const char* name)
 {
 #if _DEBUG
-	GDeadLockProfiler->PopLock(this);
+	GDeadLockProfiler->PopLock(name);
 #endif
 
 	const uint32 prev = _lockFlag.fetch_sub(1, memory_order::release);

@@ -14,6 +14,8 @@ d:\visualstudio\vc\tools\msvc\14.44.35207\include\future;C:\GameDev\CPP20_Server
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\syncstream;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\syncstream_68UQW4FN0ZGRV1X8.obj
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\semaphore;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\semaphore_2E3AIMSVKMWNVBZ1.obj
 d:\visualstudio\vc\tools\msvc\14.44.35207\include\format;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\format_214GPSOUEERMY0OT.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Allocator.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Allocator.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Allocator.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Allocator.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreGlobal.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreGlobal.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreGlobal.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreGlobal.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\CoreMacro.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\CoreMacro.ixx.obj
@@ -26,6 +28,8 @@ C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\DeadLockProfile
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\DeadLockProfiler.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\DeadLockProfiler.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Lock.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Lock.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Lock.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Lock.ixx.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Memory.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Memory.obj
+C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\Memory.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\Memory.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\pch.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\pch.ixx.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\RefCounting.cpp;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\RefCounting.obj
 C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\RefCounting.ixx;C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\ServerCore\x64\Debug\RefCounting.ixx.obj

@@ -12,6 +12,10 @@
             {
                 "Name": "Lock",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\Lock.ixx.ifc"
+            },
+            {
+                "Name": "Allocator",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\Allocator.ixx.ifc"
             }
         ],
         "ImportedHeaderUnits": [

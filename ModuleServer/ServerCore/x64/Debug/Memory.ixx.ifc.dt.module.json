@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Memory.obj",
+            "outputs": [
+                "x64\\Debug\\Memory.ixx.ifc.dt.module.json",
+                "x64\\Debug\\Memory.ixx.ifc.dt.d.json",
+                "x64\\Debug\\Memory.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Memory",
+                    "source-path": "c:\\gamedev\\cpp20_server\\cpp20_gameserver\\moduleserver\\servercore\\memory.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "CorePch.stdx"
+                },
+                {
+                    "logical-name": "Types"
+                },
+                {
+                    "logical-name": "Allocator"
+                },
+                {
+                    "logical-name": "CoreMacro"
+                }
+            ]
+        }
+    ]
+}
