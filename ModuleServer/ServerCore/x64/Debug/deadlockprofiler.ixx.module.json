@@ -21,9 +21,6 @@
                     "logical-name": "CoreMacro"
                 },
                 {
-                    "logical-name": "CorePch.stdx"
-                },
-                {
                     "logical-name": "Types"
                 }
             ]

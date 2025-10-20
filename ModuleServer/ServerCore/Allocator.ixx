@@ -1,6 +1,5 @@
 export module Allocator;
 
-import CorePch.stdx;
 import Types;
 
 

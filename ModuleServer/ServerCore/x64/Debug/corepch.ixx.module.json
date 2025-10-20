@@ -18,19 +18,7 @@
             ],
             "requires": [
                 {
-                    "logical-name": "CorePch.stdx"
-                },
-                {
                     "logical-name": "Types"
-                },
-                {
-                    "logical-name": "CoreGlobal"
-                },
-                {
-                    "logical-name": "CoreTLS"
-                },
-                {
-                    "logical-name": "Lock"
                 },
                 {
                     "logical-name": "CoreMacro"

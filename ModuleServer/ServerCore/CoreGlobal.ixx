@@ -1,6 +1,5 @@
 export module CoreGlobal;
 
-import CorePch.stdx;
 import Types;
 import ThreadManager;
 import DeadLockProfiler;

@@ -6,12 +6,12 @@
         "Includes": [],
         "ImportedModules": [
             {
-                "Name": "CorePch.stdx",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CorePch.stdx.ixx.ifc"
-            },
-            {
                 "Name": "Types",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\Types.ixx.ifc"
+            },
+            {
+                "Name": "CorePch.stdx",
+                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\CorePch.stdx.ixx.ifc"
             }
         ],
         "ImportedHeaderUnits": [
@@ -32,20 +32,12 @@
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\stack_C3SZAF11Z9SFVALP.ifc"
             },
             {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\chrono_7ZKGOWFDGQXGA80L.ifc"
-            },
-            {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\format",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\format_214GPSOUEERMY0OT.ifc"
             },
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\future",
                 "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\future_KZTPOYBU32I8X2DE.ifc"
-            },
-            {
-                "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
-                "BMI": "C:\\GameDev\\CPP20_Server\\CPP20_GameServer\\ModuleServer\\ServerCore\\x64\\Debug\\semaphore_2E3AIMSVKMWNVBZ1.ifc"
             },
             {
                 "Header": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\syncstream",

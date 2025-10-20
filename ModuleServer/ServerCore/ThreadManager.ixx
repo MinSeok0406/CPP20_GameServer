@@ -1,6 +1,5 @@
 export module ThreadManager;
 
-import CorePch.stdx;
 import Types;
 
 using namespace std;

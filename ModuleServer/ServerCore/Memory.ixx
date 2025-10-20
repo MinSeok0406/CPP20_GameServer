@@ -1,6 +1,5 @@
 export module Memory;
 
-import CorePch.stdx;
 import Types;
 import Allocator;
 import CoreMacro;

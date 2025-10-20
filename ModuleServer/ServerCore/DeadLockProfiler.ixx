@@ -1,7 +1,6 @@
 export module DeadLockProfiler;
 
 import CoreMacro;
-import CorePch.stdx;
 import Types;
 
 using namespace std;

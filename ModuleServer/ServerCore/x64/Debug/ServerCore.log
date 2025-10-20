@@ -1,18 +1,57 @@
 ﻿  모듈 종속성의 소스를 검사하는 중...
   Allocator.ixx
-  컴파일하는 중...
-  Allocator.ixx
-  CoreMacro.ixx
-  Memory.ixx
   DeadLockProfiler.ixx
+  CoreTLS.ixx
   CoreGlobal.ixx
+  CorePch.stdx.ixx
+  Memory.ixx
+  ThreadManager.ixx
+  pch.ixx
+  Lock.ixx
   CorePch.ixx
+  CoreMacro.ixx
+  RefCounting.ixx
+  Types.ixx
+  syncstream
+  iostream
+  stack
+  source_location
+  map
+  future
+  set
+  chrono
+  format
+  컴파일하는 중...
+  iostream
+  format
+  future
+  map
+  source_location
+  stack
+  chrono
+  set
+  syncstream
+  CorePch.stdx.ixx
+  Types.ixx
+  ThreadManager.ixx
+  CoreTLS.ixx
+  Allocator.ixx
+  RefCounting.ixx
+  Lock.ixx
+  CoreMacro.ixx
+  DeadLockProfiler.ixx
+  Memory.ixx
+  CorePch.ixx
+  CoreGlobal.ixx
   pch.ixx
   Allocator.cpp
   CoreGlobal.cpp
   CorePch.cpp
+  CoreTLS.cpp
   DeadLockProfiler.cpp
   Lock.cpp
   Memory.cpp
+  RefCounting.cpp
+  ThreadManager.cpp
   코드를 생성하고 있습니다...
   ServerCore.vcxproj -> C:\GameDev\CPP20_Server\CPP20_GameServer\ModuleServer\Libraries\Debug\ServerCore.lib

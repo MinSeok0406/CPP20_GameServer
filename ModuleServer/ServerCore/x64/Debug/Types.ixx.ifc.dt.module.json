@@ -21,12 +21,6 @@
                     "logical-name": "CorePch.stdx"
                 },
                 {
-                    "logical-name": "chrono",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
-                    "lookup-method": "include-angle",
-                    "unique-on-source-path": true
-                },
-                {
                     "logical-name": "future",
                     "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\future",
                     "lookup-method": "include-angle",
@@ -39,14 +33,14 @@
                     "unique-on-source-path": true
                 },
                 {
-                    "logical-name": "semaphore",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\semaphore",
+                    "logical-name": "format",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\format",
                     "lookup-method": "include-angle",
                     "unique-on-source-path": true
                 },
                 {
-                    "logical-name": "format",
-                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\format",
+                    "logical-name": "chrono",
+                    "source-path": "d:\\visualstudio\\vc\\tools\\msvc\\14.44.35207\\include\\chrono",
                     "lookup-method": "include-angle",
                     "unique-on-source-path": true
                 }
